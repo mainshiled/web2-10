@@ -98,7 +98,7 @@ for(var i=0; i< storage.length; i++){
     var reader = new FileReader();
     
     
-    if(!f.type.match('image.*') && !f.type.match('text')){
+    if(!f.type.match('image.*') && !f.type.match('text.*')){
      alert("画像ファイルとテキストファイル以外の表示はできません。");
      continue;
     }
